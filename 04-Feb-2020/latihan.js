@@ -47,30 +47,25 @@
 // minMax([1,2,34,12,5,10])
 
 
-// const ganjilGenap = (arr=[]) => {
-//     let ganjil = []
-//     let genap = []
-//     for (let i = 0; i < arr.length; i++) {
-//                 if (arr[i] % 2 == 0) {
-//                     genap.push(arr[i])
-//                 }else{
-//                     ganjil.push(arr[i])
+const ganjilGenap = (arr=[]) => {
+    let ganjil = []
+    let genap = []
+    for (let i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 == 0) {
+                    genap.push(arr[i])
+                }else{
+                    ganjil.push(arr[i])
 
-//                 }
+                }
                 
-//     }
+    }
 
-    // console.log('data genap [' + genap + ']')
+    // console.log('data genap ' + genap)
     // console.log('data ganjil ' + ganjil)
 
-//     console.log(genap)
-//     console.log(ganjil)
+    
 
-// }
+}
 
-// ganjilGenap([2,3,1,3,4])
-
-
-
-
+ganjilGenap([2,3,1,3,4])
 
